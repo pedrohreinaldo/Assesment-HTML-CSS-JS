@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta lang="pt-br">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <title>Inicial</title>
+</head>
+<body>
+    <div id="container">
+        <header id="header-index">
+            <h1 id ="cabecalhoTitulo"><a href="index.html" title="Logo Gk Fashio">GK Fashion</a></h1>
+            <p class="sacola">Nenhum item na sacola de compras</p>
+            <nav class="menu-principal">
+                <ul id="menu-principal-list">
+                    <li><a href="#" title="Sua conta">Sua Conta</a></li>
+                    <li><a href="#" title="Lista de Desejos">Lista de Desejos</a></li>
+                    <li><a href="cartao_fidelidade.html" title="Cartão Fidelidade">Cartão Fidelidade</a></li>
+                    <li><a href="sobre.html" title="Sobre">Sobre</a></li>
+                    <li><a href="contato.html" title="Contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main role="main">
+            <section id="contato">
+                <h2>Entre em contato</h2>
+                <form action="">
+                    <label for="fnome">Nome:</label>
+                    <input type="text" id="fnome" name="fnome" required minlength="3" autofocus title="Nome">
+                    <label for="fmail">Email:</label>
+                    <input type="email" id="fmail" name="femail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Email">
+                    <label for="fselection">Motivo:</label>
+                    <div id="radio-input">
+                        <label for="sugestao">Sugestão</label>
+                        <input type="radio" id="sugestao" name="motivo" title="Sugestão">
+                        <label for="critia">Critica</label>
+                        <input type="radio" id="critica" name="motivo" title="Crítica">
+                        <label for="elogio">Elogio</label>
+                        <input type="radio" id="elogio" name="motivo" title="Elogio">
+                        <label for="outros">Outros</label>
+                        <input type="radio" id="outros" name="motivo" checked title="Outros">
+                    </div>
+                    <label for="comentario">Comentários</label>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Seja sucinto e responderemos o mais breve possível &#128521;" title="Comentários"></textarea>
+                    <!-- <input type="textarea" id="comentario" name="comentario" required minlength="100" col="10"> -->
+                    <input type="submit" value="submit" title="Submeter">
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <div class="caixa-footer" >
+                <img src="img/logo_rodape.png" title="Logo da GK Fashion" alt="Logo da marca">
+                <p>&copy; Copyright GK Fashion</p>
+                <ul class="social">
+                    <li><a href="http://www.facebook.com/gkfashion" title="Link Facebook"></a></li>
+                    <li><a href="http://www.twitter.com/gkfashion" title="Link Twitter"></a></li>
+                    <li><a href="http://plus.google.com/gkfashion" title="Link Google Plus"></a></li>
+                </ul>
+            </div>
+            
+
+        </footer>
+    </div>
+    
+</body>
+</html>
