@@ -17,10 +17,10 @@ O resultado final é um layout de uma loja de roupa chamada GK Fashion, foi dese
  
  # :movie_camera: Demonstração da Aplicação
  
- - :computer: Desktop <br>
+ - :computer: Desktop <br><br>
  ![](https://github.com/pedrohreinaldo/gifsAssesment/blob/main/Ass-desktop-3.gif)
  
- - :iphone:  Mobile <br>
+ - :iphone:  Mobile <br><br>
 ![](https://github.com/pedrohreinaldo/gifsAssesment/blob/main/Mobile-ASS-2.gif)
 
 # :heavy_check_mark: Tecnologias Utilizadas 
